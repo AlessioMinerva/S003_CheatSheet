@@ -863,3 +863,68 @@ Congrats on completing the migration section! Here's a concise cheat sheet of im
 ## Application Migration Service (AWS MGN):
 - AWS MGN (Automated Lift and Shift Service) replicates source servers (VMs, physical servers, Azure VMs) into AWS for non-disruptive cutover, with fast recovery time objectives (RTO) and recovery point objectives (RPO).
 
+
+# Front-end and Mobile Exam Tips Cheat Sheet
+
+Congratulations on completing the front-end web and mobile section! This cheat sheet provides important exam tips to help you prepare:
+
+## AWS Amplify
+- Simplifies front-end web and mobile development.
+- Supports frameworks like React, Vue.js, and Angular, and static generator tools like Gatsby and Hugo.
+- Key feature: Supports server-side rendering, particularly with Next.js.
+
+## Device Farm
+- Ideal for automated or manual testing on physical Android, iOS devices, or tablets.
+- Can also test simple web applications on mobile devices.
+
+## Pinpoint
+- Enables customer engagement at scale.
+- Provides flexibility for marketing teams, business users, and sometimes developers.
+- Allows creation of segments for targeted messaging to specific audiences.
+- Key feature: Leverage machine learning models for predicting future engagements.
+
+Remember to consult the detailed AWS documentation for further information and references.
+
+Take a break, and get ready for the next section of the course!
+
+# Machine Learning Exam Tips Cheat Sheet
+
+Congratulations on completing the machine learning section! This cheat sheet provides essential exam tips to help you succeed:
+
+## Services Covered:
+- Rekognition: Detects inappropriate content in social media using AI/ML.
+- Amazon SageMaker: Develop, train, and deploy models with Jupyter Notebooks. SageMaker Neo optimizes for specific hardware, and Elastic Inference reduces costs.
+
+## Other Key Services:
+- Comprehend: Perform sentiment analysis, e.g., for product reviews and social media.
+- Kendra: Build intelligent search services for unstructured text, ideal for research papers.
+- Textract: Extract text, handwriting, and data from scanned documents using OCR.
+- Forecast: Analyze time-series data and make predictions, e.g., weather temperatures.
+- Fraud Detector: Customize fraud detection models to your data and requirements.
+- Transcribe: Convert audio and video to text, useful for closed captioning and chatbots.
+- Lex: Power conversational chatbots like Alexa or build conversational interfaces.
+- Polly: Convert text to natural speech in multiple languages, as used by Alexa.
+- Translate: Use deep learning for language translation tasks.
+
+Remember, focus on Rekognition and Amazon SageMaker for the exam. For more details, refer to the AWS documentation.
+
+Feel free to ask any questions. Good luck with your exam preparation!
+
+# Media Exam Tips Cheat Sheet
+
+Congratulations on completing the media section! Here's a handy cheat sheet to help you prepare for your exam:
+
+## Elastic Transcoder
+
+- Converts video files into optimized formats for specific devices.
+- Ensures compatibility across different platforms and devices.
+
+## Amazon Kinesis Video Streams
+
+- Enables scalable video streaming from millions of devices.
+- Useful for scenarios like Ring doorbell systems.
+
+Remember, the media section covers two key services: Elastic Transcoder and Amazon Kinesis Video Streams.
+
+If you have any questions, feel free to ask. Good luck with your exam preparation!
+
