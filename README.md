@@ -1,10 +1,5 @@
-# S003_CheatSheet
-S003_CheatSheet with key concepts for the AWS exam
-
-
 # AWS Essentials Cheat Sheet
-
-This cheat sheet provides a concise overview of key concepts and services covered in the AWS Essentials course. Use it as a quick reference to reinforce your understanding.
+# S003_CheatSheet
 
 ## Building Blocks of AWS
 
@@ -45,11 +40,9 @@ This cheat sheet provides a concise overview of key concepts and services covere
 
 ## Well-Architected Framework
 
-Read the Well-Architected Framework whitepaper before taking the exam, after completing the course. It provides valuable guidance on building and operating reliable, secure, efficient, and cost-effective systems on AWS.
+Read the Well-Architected Framework whitepaper before taking the exam. It provides valuable guidance on building and operating reliable, secure, efficient, and cost-effective systems on AWS.
 
-# IAM Exam Tips Cheat Sheet
-
-This README provides essential tips and key points to remember for the IAM (Identity Access Management) exam. Use this cheat sheet as a quick reference to enhance your exam preparation.
+# IAM 
 
 ## 1. Securing the Root Account
 - Enable multi-factor authentication for the root account.
@@ -75,10 +68,6 @@ This README provides essential tips and key points to remember for the IAM (Iden
 - Learning S3 is straightforward and enjoyable.
 
 # S3 Cheat Sheet
-
-![S3 Logo](s3-logo.png)
-
-Welcome to the S3 Cheat Sheet! This guide provides a concise summary of essential information about Amazon S3 (Simple Storage Service). Whether you're studying for an exam or need a quick reference, this cheat sheet has got you covered. Let's dive in!
 
 ## 1. S3 Basics
 - Object-based storage for cloud file uploads and storage.
@@ -132,13 +121,7 @@ Welcome to the S3 Cheat Sheet! This guide provides a concise summary of essentia
 - Objects in existing buckets aren't replicated automatically.
 - **Replicate delete markers** with an option for comprehensive replication.
 
-Congratulations on mastering the S3 section! Get ready for the next exciting topic on EC2, where you'll learn about provisioning virtual machines in the AWS Cloud. Good luck!
-
-For more detailed information, check out the [official Amazon S3 documentation](https://docs.aws.amazon.com/s3/).
-
-# EC2 Exam Tips Cheat Sheet
-
-Welcome to the EC2 Exam Tips Cheat Sheet! This guide provides a concise overview of key concepts and tips to help you prepare for your EC2 exam.
+# EC2 
 
 ## Overview
 
@@ -191,7 +174,7 @@ Welcome to the EC2 Exam Tips Cheat Sheet! This guide provides a concise overview
    - Deploy vCenter on AWS for private VMware cloud extension.
    - AWS Outposts bring AWS services to your data center.
 
-Remember these key points as you prepare for your EC2 exam. Best of luck!
+Remember these key points as you prepare for your EC2 exam.
 
 *[EC2]: Elastic Compute Cloud
 *[CLI]: Command Line Interface
@@ -202,9 +185,7 @@ Remember these key points as you prepare for your EC2 exam. Best of luck!
 *[HBase]: Hadoop Database
 *[AWS]: Amazon Web Services
 
-## EBS Cheat Sheet
-
-This cheat sheet provides an overview of Amazon Elastic Block Store (EBS) and its key features and options. Use it as a quick reference guide for your EBS exam preparation.
+## EBS 
 
 ### EBS Volume Types
 
@@ -261,13 +242,8 @@ This cheat sheet provides an overview of Amazon Elastic Block Store (EBS) and it
 - Supports EC2, EBS, EFS, FSx, Storage Gateway.
 - Offers automation, lifecycle policies, encryption, and compliance.
 
-For more details, refer to the full documentation of AWS Elastic Block Store.
 
-# Database Exam Tips Cheat Sheet
-
-Welcome to the Database Exam Tips Cheat Sheet!
-
-This cheat sheet provides essential information for your database exam preparation. Whether you're reviewing for an exam or refreshing your knowledge, these key points will help you navigate the world of databases.
+# Database 
 
 ## RDS (Relational Database Service)
 
@@ -310,9 +286,7 @@ This cheat sheet provides essential information for your database exam preparati
 - Timestream is specifically designed for storing and analyzing time-series data.
 
 
-# VPC Networking Exam Tips Cheat Sheet
-
-Congratulations on completing the VPC section of the course! This cheat sheet provides a concise summary of key points to help you prepare for your exam.
+# VPC 
 
 ## Key Topics Covered:
 
@@ -342,15 +316,8 @@ Congratulations on completing the VPC section of the course! This cheat sheet pr
 
 - **AWS Wavelength**: Enables mobile edge computing and enhances application speed at the edge, particularly for 5G scenarios.
 
-## Exam Preparation Tip:
 
-Challenge yourself to build a VPC from memory before the exam to reinforce your knowledge.
-
-Great job on completing this section! If you have any questions, feel free to ask or proceed to the next section. Good luck!
-
-# Route 53 Cheat Sheet
-
-A concise summary of Route 53 concepts for quick reference.
+# Route 53 
 
 ## Alias Record vs. CNAME
 
@@ -384,9 +351,7 @@ A concise summary of Route 53 concepts for quick reference.
 - Failed health checks result in the temporary removal of the record set.
 - SNS notifications can be configured for failed health checks.
 
-# ELB Exam Tips Cheat Sheet
-
-A concise and visually appealing cheat sheet for studying Elastic Load Balancer (ELB) concepts:
+# ELB 
 
 ## Elastic Load Balancer Types
 
@@ -416,9 +381,7 @@ A concise and visually appealing cheat sheet for studying Elastic Load Balancer 
 - Disable sticky sessions to prevent directing traffic to removed instances.
 - Deregistration delay/connection draining maintains existing connections for unhealthy instances.
 
-# Monitoring Exam Tips Cheat Sheet
-
-A concise and organized cheat sheet for studying monitoring concepts for exams:
+# Monitoring
 
 ## Exam Preparation Tips
 
@@ -446,9 +409,7 @@ A concise and organized cheat sheet for studying monitoring concepts for exams:
 - **Amazon Managed Service for Prometheus**: Leverage this service for large-scale monitoring of Kubernetes-based metrics, whether using Amazon EKS or self-managed clusters.
 - **Managed Services**: Both Grafana and Amazon Managed Service for Prometheus are fully managed by AWS, providing scalability and high availability.
 
-# High Availability and Scaling Exam Tips
-
-Welcome to the High Availability and Scaling Exam Tips README page! This guide aims to provide you with valuable insights to excel in your AWS exams. Let's dive right in:
+# High Availability and Scaling 
 
 ## Four Important Questions
 
@@ -524,9 +485,7 @@ Welcome to the Decoupling Workflows Exam Tips Cheat Sheet! This concise guide wi
 - It supports bi-directional data flow and often involves Amazon S3 for storing data.
 
 
-## Big Data Exam Tips Cheat Sheet
-
-Congratulations on completing the Big Data section! Here are some key exam tips to reinforce your knowledge:
+## Big Data 
 
 ### Key Questions to Ask
 
@@ -573,9 +532,7 @@ Congratulations on completing the Big Data section! Here are some key exam tips 
 - API calls are logged to AWS CloudTrail.
 
 
-## Serverless Architecture Exam Tips Cheat Sheet
-
-Congratulations on completing the Serverless Architecture section! Here are key exam tips to help you prepare:
+## Serverless Architecture 
 
 ### Key Questions to Ask
 
@@ -618,9 +575,7 @@ Congratulations on completing the Serverless Architecture section! Here are key 
 - AppSync is a managed GraphQL interface for front-end applications.
 - Questions regarding managed GraphQL interfaces or architectures may involve AppSync.
 
-# Security Exam Tips Cheat Sheet
-
-This cheat sheet provides a concise overview of important security exam tips. Use it as a quick reference to review key concepts for your exam preparation.
+# Security 
 
 ## DDoS
 - Distributed Denial of Service attack
@@ -688,11 +643,8 @@ This cheat sheet provides a concise overview of important security exam tips. Us
 ## AWS Security Hub
 - Centralized view of security alerts across AWS services and accounts
 
-Use this cheat sheet to quickly review and reinforce your knowledge of these important security topics. Good luck with your exam!
 
-# Automation Exam Tips Cheat Sheet
-
-Welcome to the Automation Exam Tips Cheat Sheet! Whether you're preparing for an exam or looking to enhance your knowledge of automation tools, this guide has you covered. Below, you'll find concise tips to help you navigate the key concepts and considerations of various automation tools covered in the previous lessons.
+# Automation 
 
 ## Exam Tips Overview
 
@@ -732,13 +684,8 @@ Here are specific tips for Elastic Beanstalk and Systems Manager:
   - Useful for various automation tasks across your AWS account.
   - Explore the benefits of Parameter Store and familiarize yourself with session manager functionality.
 
-These exam tips are designed to streamline your preparation and help you excel in your automation journey. Remember to apply these concepts to real-world scenarios and stay up-to-date with the latest AWS developments.
 
-Good luck with your exam, and happy automating!
-
-# Caching Exam Tips Cheat Sheet
-
-Welcome to the Caching Exam Tips Cheat Sheet! This guide will help you master the key concepts of caching for your exams. Let's dive right in:
+# Caching 
 
 ## Can it be cached?
 - Evaluate if caching can enhance your architecture:
@@ -773,9 +720,8 @@ Welcome to the Caching Exam Tips Cheat Sheet! This guide will help you master th
 - Memcached serves as a cache without backup support.
 - Neither Memcached nor Dax are reliable data sources.
 
-# Governance Exam Tips Cheat Sheet
+# Governance 
 
-Welcome to the Governance Exam Tips Cheat Sheet! This concise guide will provide you with essential tips to ace your governance exam. Let's dive in:
 
 ## Key Questions:
 - Can it be centralized? (e.g., AWS RAM or Control Tower)
@@ -826,9 +772,7 @@ Welcome to the Governance Exam Tips Cheat Sheet! This concise guide will provide
 - Automate event handling using EventBridge and Lambda.
 
 
-# Migration Exam Tips Cheat Sheet
-
-Congrats on completing the migration section! Here's a concise cheat sheet of important tips for your migration exam preparation:
+# Migration 
 
 ## Four Key Questions:
 1. Where are we going? Determine the source and destination of the migration (on-premises to AWS, AWS to on-premises, cloud vendors, third-party SaaS).
@@ -864,9 +808,7 @@ Congrats on completing the migration section! Here's a concise cheat sheet of im
 - AWS MGN (Automated Lift and Shift Service) replicates source servers (VMs, physical servers, Azure VMs) into AWS for non-disruptive cutover, with fast recovery time objectives (RTO) and recovery point objectives (RPO).
 
 
-# Front-end and Mobile Exam Tips Cheat Sheet
-
-Congratulations on completing the front-end web and mobile section! This cheat sheet provides important exam tips to help you prepare:
+# Front-end and Mobile 
 
 ## AWS Amplify
 - Simplifies front-end web and mobile development.
@@ -883,13 +825,9 @@ Congratulations on completing the front-end web and mobile section! This cheat s
 - Allows creation of segments for targeted messaging to specific audiences.
 - Key feature: Leverage machine learning models for predicting future engagements.
 
-Remember to consult the detailed AWS documentation for further information and references.
 
-Take a break, and get ready for the next section of the course!
+# Machine Learning 
 
-# Machine Learning Exam Tips Cheat Sheet
-
-Congratulations on completing the machine learning section! This cheat sheet provides essential exam tips to help you succeed:
 
 ## Services Covered:
 - Rekognition: Detects inappropriate content in social media using AI/ML.
@@ -906,11 +844,9 @@ Congratulations on completing the machine learning section! This cheat sheet pro
 - Polly: Convert text to natural speech in multiple languages, as used by Alexa.
 - Translate: Use deep learning for language translation tasks.
 
-Remember, focus on Rekognition and Amazon SageMaker for the exam. For more details, refer to the AWS documentation.
+Remember, focus on Rekognition and Amazon SageMaker for the exam. 
 
-Feel free to ask any questions. Good luck with your exam preparation!
-
-# Media Exam Tips Cheat Sheet
+# Media 
 
 Congratulations on completing the media section! Here's a handy cheat sheet to help you prepare for your exam:
 
@@ -924,7 +860,4 @@ Congratulations on completing the media section! Here's a handy cheat sheet to h
 - Enables scalable video streaming from millions of devices.
 - Useful for scenarios like Ring doorbell systems.
 
-Remember, the media section covers two key services: Elastic Transcoder and Amazon Kinesis Video Streams.
-
-If you have any questions, feel free to ask. Good luck with your exam preparation!
 
